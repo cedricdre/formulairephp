@@ -1,0 +1,39 @@
+:root {
+    --pink: #ff5c5d;    
+    --green: #a4d927;
+    --blue: #015afe;
+}
+
+body {
+    background-image: url('../img/Sonoma-Dark.jpg');
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Barlow', sans-serif;
+    background-color: black;
+}
+.bg-glass {
+/* From https://css.glass */
+background: rgba(33, 37, 41, 0.8);
+backdrop-filter: blur(30px);
+-webkit-backdrop-filter: blur(10px);
+}
+.form-check-input:checked {
+    background-color: var(--blue) !important;
+    border-color: var(--blue) !important;
+}
+.text-error {
+    color: var(--pink);
+
+}
+
+/* input:valid {
+    box-shadow: 0 0 2px 1px var(--green);
+}
+input:invalid {
+    box-shadow: 0 0 2px 1px var(--pink);
+} */
+
+
+/* .btn-gradient {
+    background: linear-gradient(0.25turn, #3E943C,  #416FC5, #804772);
+} */
