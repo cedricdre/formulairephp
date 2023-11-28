@@ -26,6 +26,11 @@ backdrop-filter: blur(30px);
 
 }
 
+footer {
+    position:absolute;
+    bottom: 0;
+}
+
 /* input:valid {
     box-shadow: 0 0 2px 1px var(--green);
 }
